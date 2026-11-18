@@ -1,0 +1,32 @@
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tablón de avisos</title>
+</head>
+
+<body>
+  <main>
+    <h1>Tablón de avisos</h1>
+
+    <form id="form-aviso">
+      <label for="texto">Nuevo aviso</label>
+      <input id="texto" name="texto" type="text" autocomplete="off">
+      <button type="submit">Publicar</button>
+    </form>
+
+    <section id="tablon" aria-live="polite">
+      <article class="aviso">
+        <p>Aviso 1</p><button type="button" data-accion="destacar">Destacar</button>
+      </article>
+      <article class="aviso">
+        <p>Aviso 2</p><button type="button" data-accion="destacar">Destacar</button>
+      </article>
+    </section>
+  </main>
+
+
+</body>
+
+</html>
